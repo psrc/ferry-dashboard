@@ -50,6 +50,10 @@ i {
   padding-right: 10px;
 }
 
+.sidebar {
+  background-color: #005753;
+}
+
 .well {
   background-color: #F2F2F2;
   padding-left: 10px;
@@ -130,7 +134,7 @@ i {
 }
 
 .mainpage_title {
-  color: #FFFFFF;
+  color: #2F3030;
   font-family: "Poppins";
   font-size: 22pt;
 }
@@ -154,9 +158,9 @@ i {
 }
 
 .mainpage_subtitle {
-  color: #EC9B21;
+  color: #2F3030;
   font-family: "Poppins";
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 .sidebar_headings {
@@ -286,5 +290,6 @@ head {
   text-align: center;
   justify-content: left;
 }
+
 
 
