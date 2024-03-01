@@ -35,10 +35,11 @@ page_text <- read_csv("data/page_text.csv", show_col_types = FALSE)
 # Inputs ---------------------------------------------------------------
 wgs84 <- 4326
 load_clr <- "#91268F"
+latest_yr <- "2023"
 
 # Data via RDS files ------------------------------------------------------
 operator_data <- readRDS("data/operator_ferry_data.rds")
 urban_area_data <- readRDS("data/urban_area_ferry_data.rds")
+demographic_data <- readRDS("data/pums_ferry_data.rds")
 
 # Visuals for App ---------------------------------------------------------
-

@@ -7,6 +7,11 @@ shinyServer(function(input, output) {
   # Main Panel
   left_panel_server('leftMain', page_nm = "Main")
   ferry_overview_server('ferryOverview')
+  
+  # Urban Areas
   ferry_ua_server('UAferry')
+  
+  # Demographics
+  ferry_demographics_server('DEMOGRAPHICSferry')
   
 })    
